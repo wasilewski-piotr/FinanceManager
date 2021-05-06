@@ -53,5 +53,3 @@ Created by [Piotr Wasilewski](mailto:wasilewski.piotr0@gmail.com) - feel free to
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
-<a href="https://choosealicense.com/licenses/mit/" target="_blank" rel="noopener"><span>MIT</span> </a>.
-
