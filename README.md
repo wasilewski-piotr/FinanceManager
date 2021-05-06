@@ -6,6 +6,8 @@
 * [Features](#features)
 * [Technologies](#technologies)
 * [Screenshots](#screenshots)
+* [Status](#status)
+* [Contact](#contact)
 * [License](#license)
 
 ## General Info
@@ -18,6 +20,10 @@ Finanse Manager is a Mobile Android Application for managing your finanses.
 ## Technologies
 
 ## Screenshots
+
+## Status
+
+## Contact
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
