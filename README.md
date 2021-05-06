@@ -16,7 +16,8 @@
 * [License](#license)
 
 ## General Info
-This Application was created as a project for IT studies in the Mobile Programming subject. For now it only supports polish language and currency.
+This Application was created as a project for IT studies in the Mobile Programming subject.
+For now it only supports polish language and currency.
 
 ## Download
 <a id="raw-url" href="https://github.com/S17918/FinanseManager/raw/main/app/apk/FinanseManager_1_0.apk" target="_blank" download><img src="https://img.shields.io/badge/APK-1.0-green"/></a>
