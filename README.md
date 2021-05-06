@@ -39,11 +39,10 @@ To-do list:
 * SQLite
 
 ## Screenshots
-![Main Page](app/screenshots/screen_1.jpg)
-![Main Menu](app/screenshots/screen_2.jpg)
-![Search Page](app/screenshots/screen_3.jpg)
-![Income Page](app/screenshots/screen_4.jpg)
-![Month Statistics Page](app/screenshots/screen_5.jpg)
+>![Main Page](app/screenshots/screen_1.jpg)
+>![Search Page](app/screenshots/screen_3.jpg)
+>![Income Page](app/screenshots/screen_4.jpg)
+>![Month Statistics Page](app/screenshots/screen_5.jpg)
 
 ## Status
 Project is: _in progress_
