@@ -30,7 +30,7 @@ List of features ready and TODOs for future development
 * Sort by incomes or expenses only
 * Search by name, category or date
 * Share your income / expense as text message (by sms, messenger, mail)
-* Monthly statistics of your finances with colorful chart
+* Monthly statistics of your finances with a colorful chart
 
 Todo list:
 * Support for English language
