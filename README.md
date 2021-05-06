@@ -1,3 +1,7 @@
+<p align="center">
+<img src=".app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" width="320" alt="Logo"/>
+</p>
+
 # Finanse Manager
 >Finanse Manager is a Mobile Android Application for managing your finanses.
 
