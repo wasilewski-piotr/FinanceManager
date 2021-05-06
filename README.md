@@ -1,4 +1,5 @@
 # Finanse Manager
+>Finanse Manager is a Mobile Android Application for managing your finanses.
 
 ## Table of contents
 * [General Info](#general-info)
@@ -11,7 +12,7 @@
 * [License](#license)
 
 ## General Info
-Finanse Manager is a Mobile Android Application for managing your finanses.
+This Application was created as a project for IT studies in the Mobile Programming subject.
 
 ## Download
 
