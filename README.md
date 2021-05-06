@@ -1,5 +1,5 @@
 <p align="center">
-<img src="app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" width="150" alt="Logo"/>
+<img src="app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" width="75" alt="Logo"/>
 </p>
 
 # Finanse Manager
