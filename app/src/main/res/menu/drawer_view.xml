@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/main_menu">
+        <item
+            android:id="@+id/main_page"
+            android:icon="@drawable/outline_cottage_24"
+            android:title="@string/main_page" />
+        <item
+            android:id="@+id/add_here"
+            android:icon="@drawable/outline_add_24"
+            android:title="@string/add_expense" />
+        <item
+            android:id="@+id/search"
+            android:icon="@drawable/outline_search_24"
+            android:title="@string/search"/>
+        <item
+            android:id="@+id/incomes"
+            android:icon="@drawable/outline_trending_up_24"
+            android:title="@string/incomes" />
+        <item
+            android:id="@+id/expenses"
+            android:icon="@drawable/outline_trending_down_24"
+            android:title="@string/expenses" />
+        <item
+            android:id="@+id/monthStats"
+            android:icon="@drawable/outline_analytics_24"
+            android:title="@string/monthly_statistics" />
+    </group>
+    <group
+        android:id="@+id/item_menu"
+        android:visible="false">
+        <item
+            android:id="@+id/share"
+            android:icon="@android:drawable/ic_menu_share"
+            android:title="@string/share"
+            app:showAsAction="always"/>
+        <item
+            android:id="@+id/edit"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="@string/edit"
+            app:showAsAction="always"/>
+    </group>
+
+</menu>

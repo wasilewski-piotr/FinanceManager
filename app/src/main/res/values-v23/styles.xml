@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/background_white</item>
+        <item name="colorPrimaryDark">@color/background_white</item>
+        <item name="colorAccent">@color/text_black</item>
+        <item name="android:statusBarColor">@color/background_white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:textColorPrimary">@color/text_black</item>
+        <item name="android:textColor">@color/text_black</item>
+        <item name="titleTextColor">@color/text_black</item>
+        <item name="subtitleTextColor">@color/text_black</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="android:fontFamily">@font/regular</item>
+    </style>
+
+    <style name="TabsView">
+        <item name="android:textColorPrimary">@color/text_black</item>
+        <item name="android:textColorSecondary">@color/text_black</item>
+        <item name="colorAccent">@color/text_black</item>
+    </style>
+
+    <style name="NavigationView" >
+        <item name="android:listDivider">@color/background_white</item>
+        <item name="android:textColorSecondary">@color/text_black</item>
+    </style>
+
+    <style name="Fragment">
+        <item name="android:background">@color/background_white</item>
+    </style>
+
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/text_black</item>
+    </style>
+
+</resources>

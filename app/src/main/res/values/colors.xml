@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="text_black">#000000</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="background_white">#FFFFFF</color>
+    <color name="gray">#d3d3d3</color>
+    <color name="category_1">#EF9A9A</color>
+    <color name="category_2">#CE93D8</color>
+    <color name="category_3">#9FA8DA</color>
+    <color name="category_4">#81D4FA</color>
+    <color name="category_5">#80CBC4</color>
+    <color name="category_6">#C5E1A5</color>
+    <color name="category_7">#FFF59D</color>
+    <color name="category_8">#FFCC80</color>
+    <color name="category_9">#BCAAA4</color>
+    <color name="date">#EEEEEE</color>
+</resources>
