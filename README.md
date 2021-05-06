@@ -31,7 +31,7 @@
 * Share your income / expense as text message (by sms, messenger, mail)
 * Monthly statistics with colorful chart
 
-To-do list:
+###Todo list:
 * Support for English Language
 * Add different currencies
 
