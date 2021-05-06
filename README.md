@@ -25,13 +25,21 @@ This Application was created as a project for IT studies in the Mobile Programmi
 * Share your income / expense as text message (by sms, messenger, mail)
 * Monthly statistics with colorful chart
 
+To-do list:
+* Support for English Language
+* Add different currencies
+
 ## Technologies
+* Java
+* SQLite
 
 ## Screenshots
 
 ## Status
+Project is: _in progress_
 
 ## Contact
+Created by [Piotr Wasilewski](mailto:wasilewski.piotr0@gmail.com)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
