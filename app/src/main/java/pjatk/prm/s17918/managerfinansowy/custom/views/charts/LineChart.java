@@ -115,190 +115,177 @@ public class LineChart extends View {
             if(price_max > 4000 || price_min < -4000){
                 if(price_max > 8000 || price_min < -8000){
                     divider = 32;
-                    canvas.drawLine(0,25,getMeasuredWidth(),25, thinPaint);
-                    canvas.drawLine(0, (float) 87.5,getMeasuredWidth(), (float) 87.5, thinPaint);
-                    canvas.drawLine(0,150,getMeasuredWidth(),150, thinPaint);
-                    canvas.drawLine(0, (float) 212.5,getMeasuredWidth(), (float) 212.5, thinPaint);
-                    canvas.drawLine(0,275,getMeasuredWidth(),275, thinPaint);
-                    canvas.drawLine(0, (float) 337.5,getMeasuredWidth(), (float) 337.5, thinPaint);
-                    canvas.drawLine(0,400,getMeasuredWidth(),400, thinPaint);
-                    canvas.drawLine(0, (float) 462.5,getMeasuredWidth(), (float) 462.5, thinPaint);
-
-                    canvas.drawLine(0,getMeasuredHeight() - 25 ,getMeasuredWidth(),getMeasuredHeight() - 25, thinPaint);
-                    canvas.drawLine(0, getMeasuredHeight() - (float) 87.5,getMeasuredWidth(), getMeasuredHeight() - (float) 87.5, thinPaint);
-                    canvas.drawLine(0,getMeasuredHeight() - 150,getMeasuredWidth(),getMeasuredHeight() - 150, thinPaint);
-                    canvas.drawLine(0, getMeasuredHeight() - (float) 212.5,getMeasuredWidth(), getMeasuredHeight() - (float) 212.5, thinPaint);
-                    canvas.drawLine(0,getMeasuredHeight() - 275,getMeasuredWidth(),getMeasuredHeight() - 275, thinPaint);
-                    canvas.drawLine(0, getMeasuredHeight() - (float) 337.5,getMeasuredWidth(), getMeasuredHeight() - (float) 337.5, thinPaint);
-                    canvas.drawLine(0,getMeasuredHeight() - 400,getMeasuredWidth(),getMeasuredHeight() - 400, thinPaint);
-                    canvas.drawLine(0, getMeasuredHeight() - (float) 462.5,getMeasuredWidth(), getMeasuredHeight() - (float) 462.5, thinPaint);
+                    canvas.drawLine(0,middle - 500 - 1,getMeasuredWidth(),middle - 500 - 1, thinPaint);
+                    canvas.drawLine(0, (float) (middle - 437.5 - 1),getMeasuredWidth(),(float) (middle - 437.5 - 1), thinPaint);
+                    canvas.drawLine(0,middle - 375 - 1,getMeasuredWidth(),middle - 375 - 1, thinPaint);
+                    canvas.drawLine(0, (float) (middle - 312.5 - 1),getMeasuredWidth(),(float) (middle - 312.5 - 1), thinPaint);
+                    canvas.drawLine(0,middle - 250 - 1,getMeasuredWidth(),middle - 250 - 1, thinPaint);
+                    canvas.drawLine(0, (float) (middle - 187.5 - 1),getMeasuredWidth(),(float) (middle - 187.5 - 1), thinPaint);
+                    canvas.drawLine(0,middle - 125 - 1,getMeasuredWidth(),middle - 125 - 1, thinPaint);
+                    canvas.drawLine(0, (float) (middle - 62.5 - 1),getMeasuredWidth(),(float) (middle - 62.5 - 1), thinPaint);
+                    canvas.drawLine(0, (float) (middle + 62.5 - 1),getMeasuredWidth(),(float) (middle + 62.5 - 1), thinPaint);
+                    canvas.drawLine(0,middle + 125 - 1,getMeasuredWidth(),middle + 125 - 1, thinPaint);
+                    canvas.drawLine(0, (float) (middle + 187.5 - 1),getMeasuredWidth(),(float) (middle + 187.5 - 1), thinPaint);
+                    canvas.drawLine(0,middle + 250 - 1,getMeasuredWidth(),middle + 250 - 1, thinPaint);
+                    canvas.drawLine(0, (float) (middle + 312.5 - 1),getMeasuredWidth(),(float) (middle + 312.5 - 1), thinPaint);
+                    canvas.drawLine(0,middle + 375 - 1,getMeasuredWidth(),middle + 375 - 1, thinPaint);
+                    canvas.drawLine(0, (float) (middle + 437.5 - 1),getMeasuredWidth(),(float) (middle + 437.5 - 1), thinPaint);
+                    canvas.drawLine(0,middle + 500 - 1,getMeasuredWidth(),middle + 500 - 1, thinPaint);
 
                     canvas.drawPoint(0, (float) (middle-62.5), blackPoint);
 
                     canvas.drawPoint(0, middle-125, blackPoint);
-                    canvas.drawText("4000 zł",middle-500,395, blackPaint);
+                    canvas.drawText("16000 zł",middle - 500 + 10,middle - 500 + 30, blackPaint);
 
                     canvas.drawPoint(0, (float) (middle-187.5), blackPoint);
 
                     canvas.drawPoint(0, middle-250, blackPoint);
-                    canvas.drawText("8000 zł",middle-500,270, blackPaint);
+                    canvas.drawText("12000 zł",middle - 500 + 10,middle - 375 + 30, blackPaint);
 
                     canvas.drawPoint(0, (float) (middle-312.5), blackPoint);
 
                     canvas.drawPoint(0, middle-375, blackPoint);
-                    canvas.drawText("12000 zł",middle-500,145, blackPaint);
+                    canvas.drawText("8000 zł",middle - 500 + 10,middle - 250 + 30, blackPaint);
 
                     canvas.drawPoint(0, (float) (middle-437.5), blackPoint);
 
                     canvas.drawPoint(0, middle-500, blackPoint);
-                    canvas.drawText("16000 zł",middle-500,20, blackPaint);
-
-                    canvas.drawPoint(0, middle-250, blackPoint);
-                    canvas.drawPoint(0, middle+250, blackPoint);
+                    canvas.drawText("4000 zł",middle - 500 + 10,middle - 125 + 30, blackPaint);
 
                     canvas.drawPoint(0, (float) (middle+62.5), blackPoint);
 
                     canvas.drawPoint(0, middle+125, blackPoint);
-                    canvas.drawText("- 4000 zł",middle-500, getMeasuredHeight()-375, blackPaint);
+                    canvas.drawText("- 4000 zł",middle - 500 + 10, middle + 125 - 10, blackPaint);
 
                     canvas.drawPoint(0, (float) (middle+187.5), blackPoint);
 
                     canvas.drawPoint(0, middle+250, blackPoint);
-                    canvas.drawText("- 8000 zł",middle-500, getMeasuredHeight()-250, blackPaint);
+                    canvas.drawText("- 8000 zł",middle - 500 + 10, middle + 250 - 10, blackPaint);
 
                     canvas.drawPoint(0, (float) (middle+312.5), blackPoint);
 
                     canvas.drawPoint(0, middle+375, blackPoint);
-                    canvas.drawText("- 12000 zł",middle-500, getMeasuredHeight()-125, blackPaint);
+                    canvas.drawText("- 12000 zł",middle - 500 + 10, middle + 375 - 10, blackPaint);
 
                     canvas.drawPoint(0, (float) (middle+437.5), blackPoint);
 
                     canvas.drawPoint(0, middle+500, blackPoint);
-                    canvas.drawText("- 16000 zł",middle-500, getMeasuredHeight(), blackPaint);
+                    canvas.drawText("- 16000 zł",middle - 500 + 10, middle + 500 - 10, blackPaint);
                 }else{
                     divider = 16;
-                    canvas.drawLine(0,25,getMeasuredWidth(),25, thinPaint);
-                    canvas.drawLine(0, (float) 87.5,getMeasuredWidth(), (float) 87.5, thinPaint);
-                    canvas.drawLine(0,150,getMeasuredWidth(),150, thinPaint);
-                    canvas.drawLine(0, (float) 212.5,getMeasuredWidth(), (float) 212.5, thinPaint);
-                    canvas.drawLine(0,275,getMeasuredWidth(),275, thinPaint);
-                    canvas.drawLine(0, (float) 337.5,getMeasuredWidth(), (float) 337.5, thinPaint);
-                    canvas.drawLine(0,400,getMeasuredWidth(),400, thinPaint);
-                    canvas.drawLine(0, (float) 462.5,getMeasuredWidth(), (float) 462.5, thinPaint);
 
-                    canvas.drawLine(0,getMeasuredHeight() - 25 ,getMeasuredWidth(),getMeasuredHeight() - 25, thinPaint);
-                    canvas.drawLine(0, getMeasuredHeight() - (float) 87.5,getMeasuredWidth(), getMeasuredHeight() - (float) 87.5, thinPaint);
-                    canvas.drawLine(0,getMeasuredHeight() - 150,getMeasuredWidth(),getMeasuredHeight() - 150, thinPaint);
-                    canvas.drawLine(0, getMeasuredHeight() - (float) 212.5,getMeasuredWidth(), getMeasuredHeight() - (float) 212.5, thinPaint);
-                    canvas.drawLine(0,getMeasuredHeight() - 275,getMeasuredWidth(),getMeasuredHeight() - 275, thinPaint);
-                    canvas.drawLine(0, getMeasuredHeight() - (float) 337.5,getMeasuredWidth(), getMeasuredHeight() - (float) 337.5, thinPaint);
-                    canvas.drawLine(0,getMeasuredHeight() - 400,getMeasuredWidth(),getMeasuredHeight() - 400, thinPaint);
-                    canvas.drawLine(0, getMeasuredHeight() - (float) 462.5,getMeasuredWidth(), getMeasuredHeight() - (float) 462.5, thinPaint);
+                    canvas.drawLine(0,middle - 500 - 1,getMeasuredWidth(),middle - 500 - 1, thinPaint);
+                    canvas.drawLine(0, (float) (middle - 437.5 - 1),getMeasuredWidth(),(float) (middle - 437.5 - 1), thinPaint);
+                    canvas.drawLine(0,middle - 375 - 1,getMeasuredWidth(),middle - 375 - 1, thinPaint);
+                    canvas.drawLine(0, (float) (middle - 312.5 - 1),getMeasuredWidth(),(float) (middle - 312.5 - 1), thinPaint);
+                    canvas.drawLine(0,middle - 250 - 1,getMeasuredWidth(),middle - 250 - 1, thinPaint);
+                    canvas.drawLine(0, (float) (middle - 187.5 - 1),getMeasuredWidth(),(float) (middle - 187.5 - 1), thinPaint);
+                    canvas.drawLine(0,middle - 125 - 1,getMeasuredWidth(),middle - 125 - 1, thinPaint);
+                    canvas.drawLine(0, (float) (middle - 62.5 - 1),getMeasuredWidth(),(float) (middle - 62.5 - 1), thinPaint);
+                    canvas.drawLine(0, (float) (middle + 62.5 - 1),getMeasuredWidth(),(float) (middle + 62.5 - 1), thinPaint);
+                    canvas.drawLine(0,middle + 125 - 1,getMeasuredWidth(),middle + 125 - 1, thinPaint);
+                    canvas.drawLine(0, (float) (middle + 187.5 - 1),getMeasuredWidth(),(float) (middle + 187.5 - 1), thinPaint);
+                    canvas.drawLine(0,middle + 250 - 1,getMeasuredWidth(),middle + 250 - 1, thinPaint);
+                    canvas.drawLine(0, (float) (middle + 312.5 - 1),getMeasuredWidth(),(float) (middle + 312.5 - 1), thinPaint);
+                    canvas.drawLine(0,middle + 375 - 1,getMeasuredWidth(),middle + 375 - 1, thinPaint);
+                    canvas.drawLine(0, (float) (middle + 437.5 - 1),getMeasuredWidth(),(float) (middle + 437.5 - 1), thinPaint);
+                    canvas.drawLine(0,middle + 500 - 1,getMeasuredWidth(),middle + 500 - 1, thinPaint);
 
                     canvas.drawPoint(0, (float) (middle-62.5), blackPoint);
 
                     canvas.drawPoint(0, middle-125, blackPoint);
-                    canvas.drawText("2000 zł",middle-500,395, blackPaint);
+                    canvas.drawText("8000 zł",middle - 500 + 10,middle - 500 + 30, blackPaint);
 
                     canvas.drawPoint(0, (float) (middle-187.5), blackPoint);
 
                     canvas.drawPoint(0, middle-250, blackPoint);
-                    canvas.drawText("4000 zł",middle-500,270, blackPaint);
+                    canvas.drawText("6000 zł",middle - 500 + 10,middle - 375 + 30, blackPaint);
 
                     canvas.drawPoint(0, (float) (middle-312.5), blackPoint);
 
                     canvas.drawPoint(0, middle-375, blackPoint);
-                    canvas.drawText("6000 zł",middle-500,145, blackPaint);
+                    canvas.drawText("4000 zł",middle - 500 + 10,middle - 250 + 30, blackPaint);
 
                     canvas.drawPoint(0, (float) (middle-437.5), blackPoint);
 
                     canvas.drawPoint(0, middle-500, blackPoint);
-                    canvas.drawText("8000 zł",middle-500,20, blackPaint);
-
-                    canvas.drawPoint(0, middle-250, blackPoint);
-                    canvas.drawPoint(0, middle+250, blackPoint);
+                    canvas.drawText("2000 zł",middle - 500 + 10,middle - 125 + 30, blackPaint);
 
                     canvas.drawPoint(0, (float) (middle+62.5), blackPoint);
 
                     canvas.drawPoint(0, middle+125, blackPoint);
-                    canvas.drawText("- 2000 zł",middle-500, getMeasuredHeight()-375, blackPaint);
+                    canvas.drawText("- 2000 zł",middle - 500 + 10, middle + 125 - 10, blackPaint);
 
                     canvas.drawPoint(0, (float) (middle+187.5), blackPoint);
 
                     canvas.drawPoint(0, middle+250, blackPoint);
-                    canvas.drawText("- 4000 zł",middle-500, getMeasuredHeight()-250, blackPaint);
+                    canvas.drawText("- 4000 zł",middle - 500 + 10, middle + 250 - 10, blackPaint);
 
                     canvas.drawPoint(0, (float) (middle+312.5), blackPoint);
 
                     canvas.drawPoint(0, middle+375, blackPoint);
-                    canvas.drawText("- 6000 zł",middle-500, getMeasuredHeight()-125, blackPaint);
+                    canvas.drawText("- 6000 zł",middle - 500 + 10, middle + 375 - 10, blackPaint);
 
                     canvas.drawPoint(0, (float) (middle+437.5), blackPoint);
 
                     canvas.drawPoint(0, middle+500, blackPoint);
-                    canvas.drawText("- 8000 zł",middle-500, getMeasuredHeight(), blackPaint);
+                    canvas.drawText("- 8000 zł",middle - 500 + 10, middle + 500 - 10, blackPaint);
                 }
             }else{
                 divider = 8;
-                canvas.drawLine(0,25,getMeasuredWidth(),25, thinPaint);
-                canvas.drawLine(0,150,getMeasuredWidth(),150, thinPaint);
-                canvas.drawLine(0,275,getMeasuredWidth(),275, thinPaint);
-                canvas.drawLine(0,400,getMeasuredWidth(),400, thinPaint);
 
-                canvas.drawLine(0,getMeasuredHeight() - 25 ,getMeasuredWidth(),getMeasuredHeight() - 25, thinPaint);
-                canvas.drawLine(0,getMeasuredHeight() - 150,getMeasuredWidth(),getMeasuredHeight() - 150, thinPaint);
-                canvas.drawLine(0,getMeasuredHeight() - 275,getMeasuredWidth(),getMeasuredHeight() - 275, thinPaint);
-                canvas.drawLine(0,getMeasuredHeight() - 400,getMeasuredWidth(),getMeasuredHeight() - 400, thinPaint);
+                canvas.drawLine(0,middle - 500 - 1,getMeasuredWidth(),middle - 500 - 1, thinPaint);
+                canvas.drawLine(0,middle - 375 - 1,getMeasuredWidth(),middle - 375 - 1, thinPaint);
+                canvas.drawLine(0,middle - 250 - 1,getMeasuredWidth(),middle - 250 - 1, thinPaint);
+                canvas.drawLine(0,middle - 125 - 1,getMeasuredWidth(),middle - 125 - 1, thinPaint);
+                canvas.drawLine(0,middle + 125 - 1,getMeasuredWidth(),middle + 125 - 1, thinPaint);
+                canvas.drawLine(0,middle + 250 - 1,getMeasuredWidth(),middle + 250 - 1, thinPaint);
+                canvas.drawLine(0,middle + 375 - 1,getMeasuredWidth(),middle + 375 - 1, thinPaint);
+                canvas.drawLine(0,middle + 500 - 1,getMeasuredWidth(),middle + 500 - 1, thinPaint);
 
-                canvas.drawPoint(0, middle-125, blackPoint);
-                canvas.drawText("1000 zł",middle-500,395, blackPaint);
 
-                canvas.drawPoint(0, middle-250, blackPoint);
-                canvas.drawText("2000 zł",middle-500,270, blackPaint);
+                canvas.drawPoint(0, middle - 125, blackPoint);
+                canvas.drawText("4000 zł",middle - 500 + 10,middle - 500 + 30, blackPaint);
 
-                canvas.drawPoint(0, middle-375, blackPoint);
-                canvas.drawText("3000 zł",middle-500,145, blackPaint);
+                canvas.drawPoint(0, middle - 250, blackPoint);
+                canvas.drawText("3000 zł",middle - 500 + 10,middle - 375 + 30, blackPaint);
 
-                canvas.drawPoint(0, middle-500, blackPoint);
-                canvas.drawText("4000 zł",middle-500,20, blackPaint);
+                canvas.drawPoint(0, middle - 375, blackPoint);
+                canvas.drawText("2000 zł",middle - 500 + 10,middle - 250 + 30, blackPaint);
 
-                canvas.drawPoint(0, middle-250, blackPoint);
-                canvas.drawPoint(0, middle+250, blackPoint);
+                canvas.drawPoint(0, middle - 500, blackPoint);
+                canvas.drawText("1000 zł",middle - 500 + 10,middle - 125 + 30, blackPaint);
 
-                canvas.drawPoint(0, middle+125, blackPoint);
-                canvas.drawText("- 1000 zł",middle-500, getMeasuredHeight()-375, blackPaint);
+                canvas.drawPoint(0, middle + 125, blackPoint);
+                canvas.drawText("- 1000 zł",middle - 500 + 10, middle+125 - 10, blackPaint);
 
-                canvas.drawPoint(0, middle+250, blackPoint);
-                canvas.drawText("- 2000 zł",middle-500, getMeasuredHeight()-250, blackPaint);
+                canvas.drawPoint(0, middle + 250, blackPoint);
+                canvas.drawText("- 2000 zł",middle - 500 + 10, middle + 250 - 10, blackPaint);
 
-                canvas.drawPoint(0, middle+375, blackPoint);
-                canvas.drawText("- 3000 zł",middle-500, getMeasuredHeight()-125, blackPaint);
+                canvas.drawPoint(0, middle + 375, blackPoint);
+                canvas.drawText("- 3000 zł",middle - 500 + 10, middle + 375 - 10, blackPaint);
 
-                canvas.drawPoint(0, middle+500, blackPoint);
-                canvas.drawText("- 4000 zł",middle-500, getMeasuredHeight(), blackPaint);
+                canvas.drawPoint(0, middle + 500, blackPoint);
+                canvas.drawText("- 4000 zł",middle - 500 + 10, middle + 500 - 10, blackPaint);
             }
         }else {
             divider = 4;
-            canvas.drawLine(0,25,getMeasuredWidth(),25, thinPaint);
-            canvas.drawLine(0,275,getMeasuredWidth(),275, thinPaint);
-
-            canvas.drawLine(0,getMeasuredHeight() - 25 ,getMeasuredWidth(),getMeasuredHeight() - 25, thinPaint);
-            canvas.drawLine(0,getMeasuredHeight() - 275,getMeasuredWidth(),getMeasuredHeight() - 275, thinPaint);
+            canvas.drawLine(0,middle - 500-1,getMeasuredWidth(),middle - 500-1, thinPaint);
+            canvas.drawLine(0,middle - 250-1,getMeasuredWidth(),middle - 250-1, thinPaint);
+            canvas.drawLine(0,middle + 250-1,getMeasuredWidth(),middle + 250-1, thinPaint);
+            canvas.drawLine(0,middle + 500-1,getMeasuredWidth(),middle + 500-1, thinPaint);
 
             canvas.drawPoint(0, middle-250, blackPoint);
-            canvas.drawText("1000 zł",middle-500,270, blackPaint);
+            canvas.drawText("2000 zł",middle - 500 + 10,middle - 500 + 30, blackPaint);
 
             canvas.drawPoint(0, middle-500, blackPoint);
-            canvas.drawText("2000 zł",middle-500,20, blackPaint);
-
-            canvas.drawPoint(0, middle-250, blackPoint);
-            canvas.drawPoint(0, middle+250, blackPoint);
+            canvas.drawText("1000 zł",middle - 500 + 10,middle - 250 + 30, blackPaint);
 
             canvas.drawPoint(0, middle+250, blackPoint);
-            canvas.drawText("- 1000 zł",middle-500, getMeasuredHeight()-250, blackPaint);
+            canvas.drawText("- 1000 zł",middle - 500 + 10, middle + 250 - 10, blackPaint);
 
             canvas.drawPoint(0, middle+500, blackPoint);
-            canvas.drawText("- 2000 zł",middle-500, getMeasuredHeight(), blackPaint);
+            canvas.drawText("- 2000 zł",middle - 500 + 10, middle + 500 - 10, blackPaint);
         }
 
         float y_old = 0;
