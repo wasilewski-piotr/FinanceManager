@@ -1,2 +1,2 @@
-# Finanse-Manager
+# FinanseManager
 Finanse Manager Mobile Application
