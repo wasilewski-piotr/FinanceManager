@@ -17,6 +17,13 @@ This Application was created as a project for IT studies in the Mobile Programmi
 ## Download
 
 ## Features
+* Add, edit, delete your incomes and expenses
+* Set custom name and date for each income / expense
+* Set predefined category for your income / expense (food, transport, health etc.)
+* Sort by incomes or expenses only
+* Search by name, category or date
+* Share your income / expense as text message (by sms, messenger, mail)
+* Monthly statistics with colorful chart
 
 ## Technologies
 
