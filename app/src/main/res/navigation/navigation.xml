@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/events_fragment">
+
+    <fragment
+        android:id="@+id/events_fragment"
+        android:name="pjatk.prm.s17918.managerfinansowy.fragments.EventsFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_events"/>
+
+    <fragment
+        android:id="@+id/add_fragment"
+        android:name="pjatk.prm.s17918.managerfinansowy.fragments.AddFragment"
+        android:label="@string/add_expense"
+        tools:layout="@layout/fragment_add"/>
+
+    <fragment
+        android:id="@+id/expenses_fragment"
+        android:name="pjatk.prm.s17918.managerfinansowy.fragments.ExpensesFragment"
+        android:label="@string/expenses"
+        tools:layout="@layout/fragment_expenses"/>
+
+    <fragment
+        android:id="@+id/income_fragment"
+        android:name="pjatk.prm.s17918.managerfinansowy.fragments.IncomeFragment"
+        android:label="@string/incomes"
+        tools:layout="@layout/fragment_income"/>
+
+    <fragment
+        android:id="@+id/edit_fragment"
+        android:name="pjatk.prm.s17918.managerfinansowy.fragments.EditFragment"
+        android:label="@string/edit"
+        tools:layout="@layout/fragment_edit"/>
+
+    <fragment
+        android:id="@+id/month_stats"
+        android:name="pjatk.prm.s17918.managerfinansowy.fragments.MonthStatsFragment"
+        android:label="@string/monthly_statistics"
+        tools:layout="@layout/fragment_month_stats"/>
+
+    <fragment
+        android:id="@+id/search_fragment"
+        android:name="pjatk.prm.s17918.managerfinansowy.fragments.SearchFragment"
+        android:label="@string/search"
+        tools:layout="@layout/fragment_search"/>
+
+    <fragment
+        android:id="@+id/show_fragment"
+        android:name="pjatk.prm.s17918.managerfinansowy.fragments.ShowItemFragment"
+        tools:layout="@layout/fragment_show_item"/>
+
+    <fragment
+        android:id="@+id/bilans_fragment"
+        android:name="pjatk.prm.s17918.managerfinansowy.fragments.BilansFragment"
+        android:label="@string/month_stats"
+        tools:layout="@layout/fragment_bilans"/>
+
+    <fragment
+        android:id="@+id/bilans_expenses_fragment"
+        android:name="pjatk.prm.s17918.managerfinansowy.fragments.BilansExpensesFragment"
+        android:label="@string/expenses"
+        tools:layout="@layout/fragment_bilans_expenses"/>
+
+    <fragment
+        android:id="@+id/bilans_income_fragment"
+        android:name="pjatk.prm.s17918.managerfinansowy.fragments.BilansIncomeFragment"
+        android:label="@string/incomes"
+        tools:layout="@layout/fragment_bilans_income"/>
+
+</navigation>
