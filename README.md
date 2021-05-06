@@ -52,4 +52,4 @@ Project is: _in progress_
 Created by [Piotr Wasilewski](mailto:wasilewski.piotr0@gmail.com) - feel free to contact me via email!
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+<a target="_blank" href="https://choosealicense.com/licenses/mit/">MIT</a>
