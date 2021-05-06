@@ -18,6 +18,8 @@
 ## General Info
 This Application was created as a project for IT studies in the Mobile Programming subject.
 
+For now it only supports polish language and currency.
+
 ## Download
 <a id="raw-url" href="https://github.com/S17918/FinanseManager/raw/main/app/apk/FinanseManager_1_0.apk" target="_blank" download><img src="https://img.shields.io/badge/APK-1.0-green"/></a>
 
@@ -39,14 +41,18 @@ To-do list:
 * SQLite
 
 ## Screenshots
-![Main Menu](app/screenshots/screen_1.jpg)
+<kbd>![Main Page](app/screenshots/screen_1.jpg)</kbd>
+<kbd>![Main Menu](app/screenshots/screen_2.jpg)</kbd>
+<kbd>![Search Page](app/screenshots/screen_3.jpg)</kbd>
+<kbd>![Income Page](app/screenshots/screen_4.jpg)</kbd>
+<kbd>![Month Statistics Page](app/screenshots/screen_5.jpg)</kbd>
+<kbd>![Add Page](app/screenshots/screen_6.jpg)</kbd>
 
 ## Status
 Project is: _in progress_
 
 ## Contact
-Created by [Piotr Wasilewski](mailto:wasilewski.piotr0@gmail.com)
-Feel free to contact me via email!
+Created by [Piotr Wasilewski](mailto:wasilewski.piotr0@gmail.com) - feel free to contact me via email!
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
