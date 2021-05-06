@@ -19,7 +19,7 @@
 This Application was created as a project for IT studies in the Mobile Programming subject.
 
 ## Download
-<a href="" target="_blank" download><img src="https://img.shields.io/badge/APK-1.0-green"/></a>
+<a id="raw-url" href="https://github.com/S17918/FinanseManager/raw/main/app/apk/FinanseManager_1_0.apk" target="_blank" download><img src="https://img.shields.io/badge/APK-1.0-green"/></a>
 
 ## Features
 * Add, edit, delete your incomes and expenses
@@ -39,6 +39,7 @@ To-do list:
 * SQLite
 
 ## Screenshots
+![Main Menu](app/screenshots/screen_1.jpg)
 
 ## Status
 Project is: _in progress_
