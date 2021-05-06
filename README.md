@@ -1,7 +1,7 @@
 # Finanse Manager
 
 ## Table of contents
-* [General Info)(#general-info)
+* [General Info](#general-info)
 * [Download](#download)
 * [Features](#features)
 * [Technologies](#technologies)
