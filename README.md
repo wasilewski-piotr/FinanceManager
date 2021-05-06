@@ -23,6 +23,7 @@
 <a id="raw-url" href="https://github.com/S17918/FinanseManager/raw/main/app/apk/FinanseManager_1_0.apk" target="_blank" download><img src="https://img.shields.io/badge/APK-1.0-green"/></a>
 
 ## Features
+List of features ready and TODOs for future development
 * Add, edit, delete your incomes and expenses
 * Set custom name and date for each income / expense
 * Set predefined category for your income / expense (food, transport, health etc.)
