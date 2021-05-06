@@ -39,7 +39,7 @@ To-do list:
 * SQLite
 
 ## Screenshots
->![Main Menu](app/screenshots/screen_1.jpg)
+`![Main Menu](app/screenshots/screen_1.jpg)`
 
 ## Status
 Project is: _in progress_
