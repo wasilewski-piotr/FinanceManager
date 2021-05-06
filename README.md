@@ -43,7 +43,6 @@ To-do list:
 ## Screenshots
 <kbd>![Main Page](app/screenshots/screen_1.jpg)</kbd>
 <kbd>![Income Page](app/screenshots/screen_4.jpg)</kbd>
-<kbd>![Search Page](app/screenshots/screen_3.jpg)</kbd>
 <kbd>![Month Statistics Page](app/screenshots/screen_5.jpg)</kbd>
 
 ## Status
