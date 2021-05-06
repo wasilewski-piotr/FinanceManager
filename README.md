@@ -48,8 +48,7 @@ To-do list:
 Project is: _in progress_
 
 ## Contact
-Created by [Piotr Wasilewski](mailto:wasilewski.piotr0@gmail.com)
-Feel free to contact me via email!
+Created by [Piotr Wasilewski](mailto:wasilewski.piotr0@gmail.com) - feel free to contact me via email!
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
