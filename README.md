@@ -17,6 +17,7 @@
 
 ## General Info
 This Application was created as a project for IT studies in the Mobile Programming subject.
+
 For now it only supports polish language and currency.
 
 ## Download
